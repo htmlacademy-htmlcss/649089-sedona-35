@@ -1,0 +1,155 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 40px;
+
+  position: relative;
+  width: 1280px;
+  height: 3307.86px;
+
+  background: #F2F2F2;
+}
+
+header {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 70px 0 70px;
+  gap: 30px;
+
+  position: absolute;
+  height: 64px;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  background: #FFFFFF;
+}
+
+.main-menu {
+  text-transform: capitalize;
+  text-align: justify;
+  color: #000000;
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+}
+
+.logo-main {
+  position: absolute;
+  left: 70px;
+  right: 0%;
+  top: 0%;
+  bottom: -0.07%;
+  padding-right: 28px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 339px;
+  height: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 100px;
+  padding-right: 310px;
+}
+
+.navigation-link {
+  padding-right: 32px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 16px;
+  gap: 8px;
+  width: 100px;
+  height: 64px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.navigation-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 301px;
+  padding-right: 70px;
+  gap: 20px;
+
+  width: 268px;
+  height: 64px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  height: 64px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 50px;
+  gap: 10px;
+  width: 92px;
+  height: 20px;
+  background: #756157;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+  background-color: none;
+}
+
+.button-primary {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
