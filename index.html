@@ -3,38 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class = "main-header">
       <nav class="main-navigation">
         <ul class="main-menu">
-          <li>
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">О Седоне</a>
+        <a href="index.html" class="navigation-logo">
+          <img src="/images/logo.png" alt="Sedona" class="logo-main">
+        </a>
+          <section class="navigation">
+            <li>
+              <a href="#" class="navigation-link">Главная</a>
             </li>
-          <li>
-            <a href="catalog.html" class="navigation-link">Гостиницы</a>
-          </li>
-          <li>
-            <h1><img src="#" alt="Лого"></h1>
-          </li>
-          <li>
-            <h1><img src="#" alt="Картинка поиска"></h1>
-          </li>
-          <li>
-            <h1><img src="#" alt="Картинка сердца"></h1>
-          </li>
-          <li>
-            <button>Хочу сюда!</button>
-          </li>
+            <li>
+              <a href="#" class="navigation-link">О Седоне</a>
+              </li>
+            <li>
+              <a href="catalog.html" class="navigation-link">Гостиницы</a>
+            </li>
+         </section>
+         <section class="navigation-user">
+            <li>
+              <img src="/images/search.svg" alt="Search" class="pics-search">
+            </li>
+            <li>
+              <img src="images/heart.svg" alt="Favourite" class="pics-heart">
+            </li>
+            <li>
+              <a href="#" class="btn"><input class="button-primary" type="button" name="button-cta-header" id="button-cta-header" value="ХОЧУ СЮДА!"></a>
+            </li>
+         </section>
         </ul>
       </nav>
     </header>
 
     <main class="content-main">
     <section class="intro">
+      <img src="#" width="1200" height="485" alt="Седона-интро" class="intro">
       <b class="intro-text">Седона &mdash; небольшой городок в Аризоне,<br>
         заслуживающий большего!</b>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
