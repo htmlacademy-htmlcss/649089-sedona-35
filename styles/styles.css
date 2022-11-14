@@ -63,6 +63,7 @@ body {
   cursor: pointer;
   border-radius: 4px;
   outline: none;
+
 }
 
 .button:focus,
@@ -217,16 +218,22 @@ body {
   top: 8px;
 }
 
+
 .navigation-button {
   background-color: #756157;
   font-size: 16px;
   line-height: 20px;
   margin-left: 20px;
   padding: 8px 34px;
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .navigation-button:focus,
 .navigation-button:hover {
+  overflow: hidden;
   background-color: #615048;
 }
 
@@ -295,6 +302,7 @@ body {
   padding: 0 85px;
   box-sizing: border-box;
   width: 400px;
+  height: 384px;
 }
 
 .advantages-item {
@@ -387,6 +395,9 @@ body {
 .advantages-description,
 .advices-description {
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .hotel-search {
@@ -401,10 +412,18 @@ body {
 
 .hotel-search-description {
   margin-bottom: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .hotel-search-button {
   background-color: #756157;
+  width: 376px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
 }
 
 .hotel-search-button:focus,
@@ -581,6 +600,11 @@ body {
   height: 10px;
 }
 
+.control-label{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   content: "";
@@ -705,6 +729,10 @@ body {
   font-size: 16px;
   line-height: 20px;
   padding: 8px 50px;
+  width: 191px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .reset-button {
@@ -712,6 +740,10 @@ body {
   line-height: 20px;
   background: none;
   padding: 8px 50px;
+  width: 191px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .reset-button:focus {
@@ -919,6 +951,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-color: #756157;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .button-details:focus,
@@ -937,6 +972,9 @@ body {
   grid-area: like;
   font-size: 16px;
   line-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .button-in-favourites {
@@ -1004,6 +1042,9 @@ body {
   background-color: #f2f2f2;
   border-radius: 4px;
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* Пагинация каталога */
@@ -1095,6 +1136,11 @@ body {
 
 .newsletter-button {
   border-radius: 0 4px 4px 0;
+  width: 232px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
 }
 
 /* Подвал */
